@@ -1,0 +1,19 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Inter:wght@400;700;900&display=swap');
+
+@theme {
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-[#050505] text-white font-sans overflow-hidden;
+  }
+
+  ::selection {
+    @apply bg-[#ff00ff] text-white;
+  }
+}
+
+
